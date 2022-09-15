@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá mundo</title>
+    <script src="soma.js"></script>
+</head>
+<body>
+    
+    <p>soma</p>
+    <input type="text" name="a" id="a">
+    <input type="text" name="b" id="b">
+    <input type="submit" onclick="soma()" name="calcular" value="calcular">
+<div id="resultado"></div>
+
+    <hr>
+    <p>Clique para fazer uma soma</p>
+    <input type="submit" onclick="soma2()" name="somar" value="somar">
+
+
+    <div style="width: 98.7%; background-color: darksalmon; height: 500px; margin: 10px;">
+        <ul style="padding: 8px;"><p>Definir tamanho</p>
+        <input type="submit" onclick="tamanho()" name="comparar" value="comparar" placeholder="*número*">
+        </ul>
+        <ul style="padding: 8px;"><p>Verificação de idade</p>
+            <input type="submit" onclick="verificar()" name="verificar" value="verificação" placeholder="*Idade*">
+        </ul>
+        <ul style="padding: 8px;"><p>Calculo de índice de massa corporal</p>
+            <input type="submit" onclick="conferir()" name="conferir" value="conferir">
+        </ul>
+        <div id="imc" style="background-color: red; max-width: 350px; margin-left: 5px;"></div>
+    </div>
+</body>
+</html>
